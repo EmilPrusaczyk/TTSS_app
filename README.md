@@ -9,6 +9,9 @@ pip install requests
 
 # Używanie programu
 Program uruchamiamy poleceniem `main`.
+
 Aplikacja przyjmuje od jednego do trzech argumentów.
 Możliwe uruchomienia programu to:
-`main nr_linii` wyświetli przystanki znajdujące się na podanej linii tramwajowej.
+
+* `main nr_linii` wyświetli przystanki znajdujące się na podanej linii tramwajowej.
+* `main nazwa_przystanku` wyświetli informacje o odjazdach z danego przystanku.
