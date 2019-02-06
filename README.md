@@ -1,5 +1,5 @@
 # TTSS_app
-Displaying tram departure times from the [TTSS api](http://ttss.krakow.pl/).
+Aplikacja do wyświetlania czasów odjazdów tramwajów z [TTSS api](http://ttss.krakow.pl/).
 
 # Wymagane biblioteki
 ```
@@ -8,4 +8,7 @@ pip install requests
 ```
 
 # Używanie programu
-
+Program uruchamiamy poleceniem `main`.
+Aplikacja przyjmuje od jednego do trzech argumentów.
+Możliwe uruchomienia programu to:
+`main nr_linii` wyświetli przystanki znajdujące się na podanej linii tramwajowej.
