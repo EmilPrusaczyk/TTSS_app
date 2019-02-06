@@ -25,9 +25,10 @@ Możliwe uruchomienia programu to:
 * `main nazwa_przystanku kierunek` wyświetli odjazdy tramwajów z danego przystanku w wybranym kierunku.
 * `main nr_linii nazwa_przystanku kierunek` wyświetli odjazdy tramwajów danej linii z danego przystanku w wybranym kierunku.
 
-# Przykład
+### Przykład
 ```
-main.py "kampus uj"
+> main "kampus uj"
+
 Przystanek Kampus UJ
 Linie 11, 18, 52
 
@@ -44,4 +45,28 @@ Obecny rozkład:
 22:31 [18] Krowodrza Górka
 22:35 [11] Czerwone Maki P+R
 22:38 [52] Os.Piastów
+```
+
+Wprowadzanie danych możliwe jest z drobnymi błędami. Program pozwoli wybrać poprawne nazwy przystanków bazując na [odległości Levenshteina](https://pl.wikipedia.org/wiki/Odleg%C5%82o%C5%9B%C4%87_Levenshteina).
+
+```
+> main "ruczaaaaj" 52
+Czy chodziło Ci o:
+1) Ruczaj
+2) Reymana
+3) Kurdwanów
+4) Borsucza
+5) Słomiana
+0) WYJDŹ
+Wybór: 1
+Przystanek Ruczaj
+Linie 11, 18, 52
+
+Właśnie odjechały:
+
+Obecny rozkład:
+22:39 [52] Os.Piastów
+22:37 [52] Czerwone Maki P+R
+22:52 [52] Czerwone Maki P+R
+22:54 [52] Os.Piastów
 ```
