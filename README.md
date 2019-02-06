@@ -24,3 +24,24 @@ Możliwe uruchomienia programu to:
 * `main nr_linii nazwa_przystanku` wyświetli odjazdy tramwajów danej linii z danego przystanku.
 * `main nazwa_przystanku kierunek` wyświetli odjazdy tramwajów z danego przystanku w wybranym kierunku.
 * `main nr_linii nazwa_przystanku kierunek` wyświetli odjazdy tramwajów danej linii z danego przystanku w wybranym kierunku.
+
+# Przykład
+```
+main.py "kampus uj"
+Przystanek Kampus UJ
+Linie 11, 18, 52
+
+Właśnie odjechały:
+22:14 [18] Czerwone Maki P+R
+22:11 [18] Krowodrza Górka
+
+Obecny rozkład:
+22:20 [11] Czerwone Maki P+R
+22:23 [52] Os.Piastów
+22:23 [52] Czerwone Maki P+R
+22:25 [11] Mały Płaszów
+22:29 [18] Czerwone Maki P+R
+22:31 [18] Krowodrza Górka
+22:35 [11] Czerwone Maki P+R
+22:38 [52] Os.Piastów
+```
