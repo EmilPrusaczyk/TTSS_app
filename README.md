@@ -25,7 +25,8 @@ Możliwe uruchomienia programu to:
 * `main nazwa_przystanku kierunek` wyświetli odjazdy tramwajów z danego przystanku w wybranym kierunku.
 * `main nr_linii nazwa_przystanku kierunek` wyświetli odjazdy tramwajów danej linii z danego przystanku w wybranym kierunku.
 
-**Uwaga:** Jeśli nazwa przystanku składa się z dwóch lub więcej członów, należy umieścić ją wewnątrz cudzysłowiów, np. `"kampus uj"` zamiast `kampus uj`.
+**Uwaga:** Jeśli nazwa przystanku składa się z dwóch lub więcej członów, należy umieścić ją wewnątrz cudzysłowiów,  
+np. `"kampus uj"` zamiast `kampus uj`.
 
 ### Przykład
 ```
